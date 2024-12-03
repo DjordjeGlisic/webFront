@@ -1,0 +1,113 @@
+.roditelj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex:0 1 500px;
+    border: 1px dotted black;
+    border-collapse: collapse;
+    height: 350px;
+}
+.forma1,.forma2
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex:0 1 auto;
+   
+}
+.forma1{
+    margin-bottom: 10px;
+    border: 1px dotted black;
+}
+.levi,.desni{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex:0 1 auto;
+   
+}
+.levi{
+    flex:0 1 100px;
+}
+.desni,.desniBox
+{
+   flex:3 1 auto;
+   margin-left: 10px;
+}
+.desniBox{
+    flex:0 1 auto;
+    margin-left: 70px;
+}
+
+.inputDiv{
+    
+    flex:1 1 auto;
+    margin:3px;
+}
+.selekt
+{
+   
+    width: 96%;
+    height: 100%;
+}
+
+.unutrasnji{
+    margin:5px;
+}
+.divDugme,.divDugmeBox{
+    display: flex;
+    order:1;
+    flex:0 1 auto;
+}
+input{
+   flex:1 1 100%;
+   width: 95%;
+}
+.dugme{
+  
+    width: 100%;
+}
+.prikaz{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:2 1 500px;
+    justify-content: space-evenly;
+}
+.box,.crvena{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    align-content: space-between;
+    margin:30px;
+    background-color: green;
+
+}
+.crvena{
+    background-color: red;
+}
+.miniBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.unutarBox{
+   flex:0 1 auto;
+   margin-bottom: 10px;
+}
+.divDugmeBox
+{
+    justify-content: center;
+}
+.dugmeBox
+{
+    width: 70%;
+  
+  
+}

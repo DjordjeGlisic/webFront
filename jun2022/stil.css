@@ -1,0 +1,98 @@
+.roditelj
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.forma
+{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex:0 1 300px;
+    flex-wrap: wrap;
+}
+.okvir
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.levi,.desni
+{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+   
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.desni
+{
+    margin-left: 10px;
+}
+.unutrasnjiLab
+{
+    margin-top: 10px;
+}
+[class^="unutrasnjiSelekt"]
+{
+    display: flex;
+    margin-top: 11px;
+    width: 200px;
+}
+.Model,.Brend,.Boja
+{
+    width: 100%;
+}
+.divDugme
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+.dugme
+{
+    
+    width: 95%;
+}
+.prikaz
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    flex:1 1 auto;
+}
+.box
+{
+    display: flex;
+    border:1px solid black;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-content: stretch;
+    flex: 0 1 200px;
+    margin:10px;
+}
+.divBrendObjekta,.divModelObjekta,.divSlika,.divKolicinaObjekta,.divCenaObjekta,.divDugmeBox,.datumObjekta
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.divDugmeBox
+{
+    margin-bottom: 10px;
+
+}
+.datumObjekta
+{
+    text-wrap: nowrap;
+}

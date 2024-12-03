@@ -1,0 +1,139 @@
+.naslov{
+    font-size: 30px;
+    align-self: center;
+    font-weight: bold;
+}
+.naslovni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forma
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex:0 1 400px; 
+    border:1px dotted black;
+    margin:20px;
+}
+.okvir
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    /* align-content:space-around ; */
+
+}
+.roditelj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.levi,.desni,.spoljasni
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    margin-right: 10px;
+    flex:0 1 auto;
+}
+.desni{
+    margin-left: 10px;
+    flex:1 1 auto;
+}
+.unutrasnji,.unutrasnjiInput
+{
+    margin:5px;
+}
+.unutrasnjiInput
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.selekt
+{
+    width: 100%;
+    height: 100%;
+}
+input{
+    width: 175px;
+}
+.spoljasni
+{
+    display: flex;
+    margin-left: 5px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border:1px solid black;
+}
+.unutar
+{
+    align-self: center;
+    height: 70%;
+    width: 70%;
+   
+
+}
+.divDugme{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex:1 1 auto;
+    width: 100%;
+    margin:5px
+}
+.dugme{
+    align-self: center;
+    width:45%;
+}
+.prikaz{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    border:1px dotted black;
+    flex-wrap: wrap;
+    flex:1 1 auto;
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    margin:5px;
+
+}
+.naslovBoxa
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.labelaNaslovBoxa
+{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.divDugmeBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dugmeBox
+{
+    align-self: center;
+    margin:5px;
+
+}
+.okvirni{
+    height: 70%;
+}

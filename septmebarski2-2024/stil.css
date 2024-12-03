@@ -1,0 +1,144 @@
+.roditelj{
+    display: flex;
+    flex-direction: column;
+}
+.glavni{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap: nowrap;
+}
+.divSelekt{
+    display: flex;
+    align-items: stretch;
+}
+.selekt{
+    position: relative;
+    width: 100%;
+}
+.centar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid black;
+    flex:1 1 300px
+}
+.okvir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.divLevi
+{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-right: 20px;
+    flex-wrap: wrap;
+}
+.levi
+{
+    margin-bottom: 10px;
+}
+.divDesni
+{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left: 20px;
+    flex-wrap: nowrap;
+   
+}
+.desni{
+    margin-bottom: 10px;
+}
+.kupi{
+    position: relative;
+    width: 70%;
+   
+    
+}
+.zeleni{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: green;
+    flex:1 1 300px
+}
+.detalji{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-around;
+    order:-1;
+    flex: 1 1 350px;
+    margin:10px
+}
+.nalsov
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+.divNaslov{
+    margin-right: 10px;
+    font-size: 12px;
+}
+.labC{
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.labB{
+    font-weight: bold;
+}
+.opis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+}
+.paragraf{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+.korpa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex:1 0 350px;
+    border:1px solid black;
+    margin:10px
+}
+.divUnutrasnji{
+    margin:10px
+}
+.labelaLeva, .labelaDesna
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    font-weight: 900;
+}
+.labelaDesna{
+   
+   font-weight: 500;
+    color:red
+}
+.labelaUkupno{
+    font-weight: bold;
+}
+.labelaUkupnoVr{
+    font-weight: bold;
+    color: darkred;
+}

@@ -1,0 +1,76 @@
+.glavni{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    justify-content: space-around;
+    background-color: azure;
+}
+table, tr, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    margin:10px;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex: 0 0 200px;
+    margin-right: 50px;
+}
+.divIspit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px
+}
+.divPrikaz
+{
+    flex: 1 1 auto;
+   
+}
+.divCB{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex:1 0 auto;
+
+}
+.okvir{
+    display: flex;
+    flex-direction: row;
+   /* background-color: blue;*/
+   /* justify-content: space-between;*/
+}
+.labbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   /* justify-content: space-around;*/
+}
+.pomocniDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px
+}
+label{
+    margin-left:5px;
+    margin-right: 5px;
+    flex: 1 0 auto;
+}
+input{
+    flex:1 1 auto;
+
+}
+.divZaLabelu
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.divCB{
+    margin-left: 5px;
+    margin-right: 5px;
+}

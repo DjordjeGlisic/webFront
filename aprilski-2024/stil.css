@@ -1,0 +1,117 @@
+.roditelj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex:1 1 auto;
+}
+.divSelekt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+}
+.selekt{
+    align-self: center;
+  
+}
+.glavni
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.forma
+{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex:0 1 350px;
+    flex-wrap: nowrap;
+    border:1px solid black;
+    margin-top: 10px;
+}
+.prikaz
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex:1 1 auto;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border:1px solid black;
+}
+.divkarte,.labelaKarte
+{
+    align-self: center;
+}
+.box,.crvena
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex:1 1 auto;
+    background-color: green;
+    margin:10px;
+    height: 50px;
+}
+.crvena{
+    background-color: red;
+}
+.divNaslov,.divDugme{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.divDugme{
+    margin-bottom: 30px;
+}
+.naslov
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.centar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+.levi
+{
+    flex:0 1 auto;
+    margin-right: 10px;
+   
+
+}
+.labelaUdiv
+{
+    text-wrap: nowrap;
+}
+.desni
+{
+    flex:1 1 auto;
+    
+}
+.unutrasnji
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.unutrsnji
+{
+    margin-top: 8px;
+    margin-right: 20px;
+}
+.dugme{
+    width: 100%;
+}

@@ -1,0 +1,118 @@
+.roditelj
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.forma
+{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex:0 1 500px;
+}
+.formaFilter,.formaPodaci
+{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    border: 1px dotted black;
+}
+.formaPodaci
+{
+    margin-top: 10px;
+}
+.okvir
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.levi,.desni
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex:0 1 auto;
+
+}
+.levi{
+    margin-right: 10%;
+}
+.desni{
+    flex:1 1 auto;
+}
+.unutrasnji,.unutrasnji2,.unutrasnji3,.unutrasnji4{
+    display: flex;
+    margin:5px;
+   
+}
+
+.unutrasnji2
+{
+    display: flex;
+    margin:3px;
+}
+.unutrasnji3
+{
+    margin:7px;
+}
+.unutrasnji4
+{
+    margin:3px;
+}
+.inputSlobodna
+{
+    
+    flex:1 1 200px;
+}
+input
+{
+    
+    flex:1 1 100%;
+    
+}
+.divDugme
+{
+    display: flex;
+    flex: 1 1 100%;
+    width: 100%;
+    justify-content: center;
+}
+.dugme
+{
+    width: 98%;
+    align-self: center;
+}
+.prikaz
+{
+    display: flex;
+    flex:3 1 auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border:1px solid black;
+    background-color:lightskyblue;
+    margin:5px;
+}
+.labelaBoxa
+{
+    text-wrap: nowrap;
+}
+.leviBox,.desniBox
+{
+    margin-right: 10px;
+    flex:0 1 autol
+}
+.desniBox{
+    flex:1 1 auto;
+}
