@@ -1,0 +1,164 @@
+.roditelj
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.celaForma
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex: 0 1 500px;
+}
+.gornjaForma,.donjaForma
+{
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px dotted black;
+    margin-top: 10px;
+    flex:1 1 auto;
+}
+.okvir
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.levi
+{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    align-content: space-around;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+.desni
+{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink:  1;
+    width: 100%;
+    align-content: space-around;
+
+}
+.labelaForme
+{
+    text-wrap: nowrap;
+}
+[class^="In"]
+{
+    display: flex;
+    width: 95%;
+    
+}
+.unutrasnjiZaLab
+{
+    margin-top: 5px;
+}
+.unutrasnjiZaIn
+{
+    margin-top: 5px;
+}
+.divCB
+{
+    margin-top: 12px;
+}
+.unutrasnjiZaLabZ
+{
+    margin-top: 17px;
+}
+.labelaCB
+{
+    margin-right: 25px;
+}
+.divDugme
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.dugme{
+    width: 97%;
+}
+.prikaz
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex: 1 1 auto;
+   flex-wrap: wrap;
+
+
+}
+[class^="Box"]
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid black;
+    flex:0 1 auto;
+    flex-wrap: nowrap;
+    width: 30%;
+    margin:10px
+    
+    
+}
+.boxLevi
+{
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 50%;
+    
+   
+
+}
+.boxDesni
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 50%;
+    
+}
+.boxUnutrasnjiLab,.boxUnutrasnjiLab2
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+.minibox
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.boxUnutrasnjiLab3
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.znamenitosti
+{
+    display: flex;
+    text-wrap: wrap;
+
+}
+.boxLabela
+{
+    text-wrap: nowrap;
+}
